@@ -1,0 +1,44 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #757575;
+	background: #FAFAFA;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#mainDiv{
+	
+}
+
+#secondDiv{
+	width: 250px;
+	/*height: 320px;*/
+	margin-left: 100px;
+	background: white;
+}
+
+#secondDiv1{
+	margin: 35px;
+	padding-bottom: 35px;
+}
+
+.button{
+	float: right;
+}
+
+.xBtn{
+	display: none;
+}
+
+tr:hover .xBtn{
+	display: block;
+	cursor:pointer;
+}
+
+#error{
+	color: red;
+	text-align: center;
+	margin-top: -20px;
+}
